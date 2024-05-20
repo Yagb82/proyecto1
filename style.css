@@ -72,6 +72,12 @@ header
 {
     box-shadow: 3px 3px 5px #181818;
 }
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card {
     --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);
     width: 190px;
@@ -84,6 +90,7 @@ header
     position: relative;
     z-index: 1;
     margin-top: 30px;
+    
    }
    
    .card::after {
@@ -100,6 +107,7 @@ header
     background: #f7ba2b;
     background: var(--background);
     transition: opacity .5s;
+    
    }
    
    .card-info {
